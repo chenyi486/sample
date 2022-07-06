@@ -1,0 +1,226 @@
+*{margin: 0;
+        padding: 0 
+     }/*初始化，内边距，外边距设置为0*/
+     a{text-decoration: none;
+             /*取消文本超链接的下划线*/
+        color: white;
+     }
+.liyue,
+.daoqi,
+.monde {
+        border-bottom: 5px solid #00FFFF;
+        width: 90px;
+        height:50px;
+        margin-left: 20px;
+}
+.lihui,
+.lihui2,
+.lihui3 {
+        flex: 1;
+        background-size:100% 100%;
+        position:fixed;
+        width: 25%;
+        height: 600px; 
+        margin-left: 1150px;
+}
+.lihui{
+        background-image: url(img/胡桃\ 全身.png);
+}
+.monde,
+.daoqi,
+.liyue{
+        transition: all 0.3s ease-in-out;
+     }
+.monde:hover,
+.daoqi:hover,
+.liyue:hover{
+        transform: translate(0,-10px);
+}
+.lihui2{
+        background-image: url(img/枫原万叶\ 全身.png);
+}
+.lihui3{
+        background-image: url(img/班尼特\ 全身.png);
+}
+.beijing1,
+.beijing2,
+.beijing3 {
+        background-size:100%;
+        position: absolute;
+        background-attachment: fixed;
+}
+.beijing1{
+        background-image:url(img/liyue02.png);    
+} 
+.beijing2 {
+        background-image:url(img/daoqi.jpg); 
+}
+.beijing3 {
+        background-image:url(img/monde.jpg); 
+}
+
+.head{
+        display: flex;/*弹性布局*/
+        width: 100%;
+        height:85px; 
+        text-align: center;/*文本居中对齐*/
+        background: rgba(0,0,0,0.5);/*黑色半透明背景，0，0，0为黑色，0.5为透明度*/
+        position:fixed;/*固定定位，固定在网页窗口*/
+}
+img{
+        width: 100%;
+        height: 100%;
+}
+.bar img {
+        width:70px;
+        height:70px;
+}
+.jn2 img {
+        height: 40px;
+        width: 40px;
+}
+.mihoyo {
+        flex: 1;
+        width: 100px;
+        
+}
+.city,
+.city2,
+.city3 {
+        height:30px;
+        font-size: 30px;
+         /*字体大小*/
+        padding: 30px;
+}
+.city{
+        margin-left: 300px;
+        flex: 1;
+}
+.city2{
+        flex: 1;
+}
+.city3{
+        margin-right: 400px;
+        flex: 1;
+}
+
+.bar{
+        width: 100%;
+        height: 70px;
+        margin-top:95px; 
+        display: flex;
+        justify-content: center;
+                /*里面的div设置为水平居中*/
+}
+.js2{
+        margin-bottom: 15px;
+}
+.juese1{
+        background-color: rgba(0,0,0,0.4);
+        border-radius: 15px;/*圆角边框*/
+        transition: all,0.1s ease-in-out;/*鼠标放上去有动画效果，0.1秒完成动画*/
+}
+.juese1:hover,
+.juese2:hover{
+        transform:translate(0 ,-8px);/*上下跳动的动画效果，-8px是向上*/
+ }
+.juese1,
+.juese2{
+        margin-left: 10px;
+        margin-right:10px;
+        width:70px;
+} 
+.boy {
+        display: flex;
+}      
+.zuo{
+        width: 26%;height:620px;
+        display: flex; 
+        justify-content: right;
+        position:fixed;
+}
+.zuo-nav{
+        width:133px;
+        height: 200px;
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;/*里面div的主轴设置为垂直方向*/
+        justify-content: space-between;/*里面的div设置为两端对齐，并且div之间的间距相等*/
+        align-items: center;/*里面的div设置为垂直居中*/
+}
+.jieshao,
+.jineng,
+.gushi{
+        height: 30px;
+        font-size: 20px;
+        padding: 5px 60px 5px 20px;
+        margin-left:10px;
+        background: linear-gradient(to right,rgba(0,0,0,0.7),rgba(0,0,0,0.2));
+         /*背景颜色设置为线性渐变，向右，由0.7的黑色透明到0.2的黑色透明*/
+        transition: all 0.3s ease-in-out;
+}
+.jieshao:hover,
+.jineng:hover,
+.gushi:hover{
+        transform: scale(1.2);
+                /*1.2倍的放大效果*/
+}
+.zhong{
+        width:48%;
+        margin-top: 10px;
+        margin-left:395px;
+        margin-right: 300px;
+        background: rgba(0,0,0,0.3);
+}
+.js1{
+        display: flex;
+        width:670px;
+        height: 250px;
+        margin: 15px;
+}
+.js1-text{
+        border-radius: 15px;
+        flex: 1;/*填满前一个div留下来的空白部分，可以用来让多个div横向排列，父容器要设置display:flex*/
+        width: 130px;
+        margin-left: 10px;
+        color: white;
+        font-size: 23px;
+        padding-left: 15px;
+        background: rgba(0,0,0,0.2);
+        }
+.jn1,
+.gs1,
+.gs2,
+.gs3{
+        text-align: center;
+        font-size:23px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+}
+.js2,
+.jn1,
+.jn2,
+.gs1,
+.gs1-1,
+.jsxx,
+.gs2,
+.gs2-1,
+.gs3,
+.gs3-1{
+        background: rgba(0,0,0,0.3);
+        border-radius: 15px;
+        margin-left: 15px;
+        margin-right: 15px;
+        padding: 12px;color:aliceblue;
+        line-height: 25px;/*行高*/
+}
+.foot{
+        padding: 30px;
+        position: relative;/*相对定位*/
+        height: 100px;
+        text-align: center;
+        color: #8f9292;
+        background-color:rgb(51, 47, 47);
+                
+}
+        

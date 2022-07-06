@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content:center ;
+    background: url(../images/login.jpg) no-repeat center;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.login_1 {
+    display: flex;
+    position: relative;
+    width: 350px;
+    height: 500px;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.3);
+    align-items: center;
+    font-size: 24px;
+    top: 50px; 
+}
+.login_5 {
+    width: 280px;
+    height: 45px;
+    margin-bottom: 20px;
+    margin-left:5px ;
+    border: 0;
+    padding: 12px;
+    border-bottom: 2px solid rgba(247, 0, 247);
+    
+}
+.login_7 {
+    text-align: center;
+    width: 280px;
+    height: 55px;
+    line-height: 44px;
+    margin-left:5px ;
+    border-radius: 10px;
+    background-color: pink;
+    font-size: 20px;
+    color: #fff;
+}
+.login_8 {
+    margin-left: 20px;
+    margin-top:20px;
+    font-size: 14px;
+    text-align: right;
+}
+
+    
+

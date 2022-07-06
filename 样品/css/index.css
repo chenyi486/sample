@@ -1,0 +1,188 @@
+.main {
+    width: 980px;
+    height: 455px;
+    background-color: #ccc;
+    margin-left: 220px;
+    margin-top: 9px;
+}
+.focus {
+    float: left;
+    width: 721px;
+    height: 455px;
+    /* background-color: pink; */
+    background: url(../img/稻妻4.0)no-repeat center;
+}
+.focus img {
+    width: 721px;
+    height: 455px;
+}
+.newsflash {
+    float: right;
+    width: 250px;
+    height: 455px;
+    background-color: skyblue;
+}
+.news {
+    height: 165px;
+    border: 1px solid #e4e4e4;
+}
+.news-hd {
+    height: 33px;
+    line-height: 33px;
+    border-bottom: 1px solid #e4e4e4;
+    padding: 0 15px;
+}
+.news-hd h5 {
+    float: left;
+    font-size: 14px;
+}
+.news-hd .more {
+    float: right;
+}
+.news-hd .more::after {
+    content:1 ;
+}
+.news-bd {
+    padding: 5px 15px 0;
+}
+.news-hd ul li {
+    /* width: 270px!important; */
+    height: 24px;
+    line-height: 24px;
+    /* 以下操作不执行，尝试为li设置宽度不执行 */
+    /* 文字超出部分隐藏 */
+    overflow: hidden;
+    /* 文字必须以一行显示 */
+    white-space: nowrap;
+    /* 超出一行文字以省略号显示 */
+    text-overflow: ellipsis;
+}
+
+.lifeservice {
+    /* 负责切掉多余（超出版心）的边距 */
+    overflow: hidden;
+    height: 209px;
+    background-color: #fff;
+    border-top: 0;
+}
+    /* 因为li有边距，会不够边距，直接改ul宽度比较简便 */
+.lifeservice ul {
+    width: 252px;
+}
+.lifeservice ul li {
+    float: left;
+    width: 63px;
+    height: 71px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    text-align: center;
+}
+.lifeservice ul li i {
+    display: inline-block;
+    width: 24px;
+    height: 28px;
+    /* 可改背景图 */
+    background-color: palegoldenrod;
+    margin-top: 12px;
+}
+.bargain {
+    margin-top: 5px;
+}
+/* 主体模块2.0 */
+.recom {
+    height: 163px;
+    /* background-color: pink; */
+    margin-top: 12px;
+}
+.recom_hd {
+    float: left;
+    height: 163px;
+    width: 205px;
+    border-color: black;
+}
+.recom_hd img {
+    width: 248px;
+    height: 163px;
+
+}
+.recom_bd {
+    float: left;
+}
+.recom_bd ul li {
+    float: left;
+}
+/* 限制图片大小，恒定宽高 */
+.recom_bd ul li img {
+    width: 248px;
+    height: 163px;
+}
+/* 使用伪元素作竖线,可用其他方法 */
+.recom_bd ul li :nth-child(-n+3)::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 1px;
+    height: 145px;
+    background-color: #ddd;
+}
+/* 楼层模块1.0 */
+.box_hd {
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+    line-height: 30px;
+}
+.box_hd h5 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+    font-weight: 400;
+}
+.tab_list {
+    float: right;
+    line-height: 30px;
+}
+.tab_list ul li {
+    float: left;
+}
+.tab_list ul li a {
+    margin: 0 15px;
+}
+.floor .w {
+    margin-top: 30px;
+}
+.box_bd {
+    height: 361px;
+    background-color: skyblue;
+}
+.tab_list_item>div {
+    float: left;
+    height: 361px;
+}
+.col_210 {
+    width: 210px;
+    background-color: pink;
+    text-align: center;
+}
+.col_210 ul li  {
+    float: left;
+    width: 85px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    margin-right: 10px;
+}
+.col_210 ul {
+    padding-left: 12px;
+}
+.col_329 {
+    width: 329px;
+    
+}
+.col_221 {
+    width: 221px;
+}
+.col_219 {
+    width: 219px;
+}
